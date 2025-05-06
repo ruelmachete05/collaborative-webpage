@@ -51,10 +51,35 @@
       background-color: #0097a7;
     }
 
-    img{
-      width: 900px;
-      height: 500px;
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      margin: 20px 0;
     }
+
+    img {
+      width: 300px; /* Fixed width */
+      height: 300px; /* Fixed height */
+      object-fit: cover; /* Ensures the image covers the area without distortion */
+      border-radius: 50%; /* Makes the image round */
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 26px; /* Adjusted text size */
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px; /* Adjusted text size */
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
   </style>
 </head>
 <body>
@@ -68,23 +93,25 @@
       <a href="#news3">About</a>
     </div>
     <button class="button">Simple News</button>
-    </div>
   </div>
-    <section id="news1">
-        <img src="https://www.inquirer.net/wp-content/uploads/2025/03/Claire-Castro-28March2025-1200x740.jpg" alt="Palace">
-        <h3>Palace to declare May 12 a holiday for elections</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi natus a sequi laborum impedit neque laboriosam, at ut quibusdam veritatis facilis recusandae quasi! Dolorum aliquid inventore fugiat obcaecati cum.</p>
-    </section>
-    <section id="news2">
-        <img src="https://images.gmanews.tv/webpics/2025/05/UAAP_87_WVB_UST_vs_2025_05_03_22_03_51.jpg" alt="Volleyball">
-        <h3>La Salle sends UST packing, sets up finals duel vs NU in UAAP women's volleyball</h3>
-        <p>De La Salle University is back in the UAAP women's volleyball finals stage after ousting University of Santo Tomas, 25-22, 11-25, 25-21, 25-21, in the Final Four round on Saturday at the Smart Araneta Coliseum. </p>
-    </section>
-    <section id="news3">
-        <img src="https://lifestyle.inquirer.net/files/2025/05/fellipe-ditadi-1YXg317PYRQ-unsplash-1-scaled-e1746511398196.jpg" alt="">
-        <h3>Safely Exercise</h3>
-        <p>Dont let the summer heat stop you from staying fit. Instead of getting lazy to move because of the extremely hot weather, turn things around and get more motivated to continue the fitness goals you’ve set for yourself this year.  </p>
-    </section>
+
+  <section id="news1">
+    <img src="https://www.inquirer.net/wp-content/uploads/2025/03/Claire-Castro-28March2025-1200x740.jpg" alt="Palace">
+    <h3>Palace to declare May 12 a holiday for elections</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi natus a sequi laborum impedit neque laboriosam, at ut quibusdam veritatis facilis recusandae quasi! Dolorum aliquid inventore fugiat obcaecati cum.</p>
+  </section>
+
+  <section id="news2">
+    <img src="https://images.gmanews.tv/webpics/2025/05/UAAP_87_WVB_UST_vs_2025_05_03_22_03_51.jpg" alt="Volleyball">
+    <h3>La Salle sends UST packing, sets up finals duel vs NU in UAAP women's volleyball</h3>
+    <p>De La Salle University is back in the UAAP women's volleyball finals stage after ousting University of Santo Tomas, 25-22, 11-25, 25-21, 25-21, in the Final Four round on Saturday at the Smart Araneta Coliseum.</p>
+  </section>
+
+  <section id="news3">
+    <img src="https://lifestyle.inquirer.net/files/2025/05/fellipe-ditadi-1YXg317PYRQ-unsplash-1-scaled-e1746511398196.jpg" alt="Fitness">
+    <h3>Safely Exercise</h3>
+    <p>Don't let the summer heat stop you from staying fit. Instead of getting lazy to move because of the extremely hot weather, turn things around and get more motivated to continue the fitness goals you’ve set for yourself this year.</p>
+  </section>
 
 </body>
 </html>
