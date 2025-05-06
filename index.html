@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Navbar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e0eef6;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: #222;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .button {
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .button:hover {
+      background-color: #0097a7;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Test</h1>
-        <nav></nav>        
-    </header>
-    <p>Welcome to my website!</p>
-    <img src="https://example.com/image.jpg" alt="Example Image" width="300" height="200">
-    <button onclick="alert('Button clicked!')">Click Me!</button>
+
+  <div class="navbar">
+    <div class="logo">LOGO</div>
+    
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">About</a>
+    </div>
+
+    <button class="button">Simple News</button>
+  </div>
+
 </body>
 </html>
